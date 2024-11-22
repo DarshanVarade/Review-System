@@ -12,7 +12,7 @@ app.use(express.json());
 app.use("/api/v1",router)
 
 app.get("/",(req,res)=>{
-  res.send("review system");
+  res.send("Darshan's review system");
 });
 
 dotenv.config();
